@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
+#include "Common.h"
+#include "GameManager.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	GameManager gm;
+	gm.SetNextScene(SceneList::titleScene);
+	gm.Play();
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー

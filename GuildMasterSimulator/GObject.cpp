@@ -4,6 +4,10 @@ GObject::GObject()
 {
 }
 
+GObject::~GObject()
+{
+}
+
 bool GObject::GetIsDraw() const
 {
 	return isDraw;

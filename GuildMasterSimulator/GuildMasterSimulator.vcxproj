@@ -155,12 +155,16 @@
     <ClCompile Include="GObject.cpp" />
     <ClCompile Include="GScene.cpp" />
     <ClCompile Include="GuildMasterSimulator.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="GObject.h" />
     <ClInclude Include="GScene.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="TitleScene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

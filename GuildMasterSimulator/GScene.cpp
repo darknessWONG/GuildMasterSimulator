@@ -7,6 +7,7 @@ GScene::GScene()
 
 GScene::~GScene()
 {
+	system("cls");
 	for (auto object : objects)
 	{
 		SAFE_DELETE(object);

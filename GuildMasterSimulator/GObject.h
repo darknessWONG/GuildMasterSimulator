@@ -3,7 +3,7 @@ class GObject
 {
 public:
 	GObject();
-	virtual ~GObject() = 0;
+	virtual ~GObject();
 
 	virtual void Print() const = 0;
 
